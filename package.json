@@ -1,7 +1,7 @@
 {
   "name": "rest-app",
   "version": "1.0.0",
-  "description": "Understanding JavaScript rest parameter",
+  "description": "Understanding the JavaScript rest parameter",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
