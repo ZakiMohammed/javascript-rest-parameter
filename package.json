@@ -1,0 +1,24 @@
+{
+  "name": "rest-app",
+  "version": "1.0.0",
+  "description": "Understanding JavaScript rest parameter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZakiMohammed/javascript-rest-parameter.git"
+  },
+  "keywords": [
+    "Rest",
+    "Parameter",
+    "JavaScript"
+  ],
+  "author": "Zaki Mohammed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZakiMohammed/javascript-rest-parameter/issues"
+  },
+  "homepage": "https://github.com/ZakiMohammed/javascript-rest-parameter#readme"
+}
