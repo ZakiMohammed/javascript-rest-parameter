@@ -93,14 +93,29 @@ console.log(info('John', 21, 'Python', 'Bootstrap', 'Sass'))
 
 // Uncaught SyntaxError: Rest parameter must be last formal parameter
 ```
-
 Failed to do so will leads to error and error nobody wants and dev are not nobody.
+
+Rest can also be used when destructuring an object/array. It simply a way to getting what you need out of many other object properties or array values and leaving the rest of it accessed through rest object/array. Check out below code to understand previously written english statement:
 ```
-const info = (name, age, ...skills, gender) => `${name} ${age} - ${skills.join(', ')}`
+const [hobby, ...otherHobbies] = ['Football', 'Swimming', 'Boxing']
 
-console.log(info('John', 21, 'Python', 'Bootstrap', 'Sass'))
+console.log(hobby)
+console.log(otherHobbies)
 
-// Uncaught SyntaxError: Rest parameter must be last formal parameter
+const { department, ...otherDetails } = {
+    id: 1,
+    name: 'John Doe',
+    salary: 1200,
+    department: 'Accounts'
+}
+
+console.log(department)
+console.log(otherDetails)
+
+// Football
+// [ 'Swimming', 'Boxing' ]
+// Accounts
+// { id: 1, name: 'John Doe', salary: 1200 }
 ```
 
 Summary about rest parameter:
